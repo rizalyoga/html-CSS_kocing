@@ -1,8 +1,18 @@
+@media (max-width: 1500px) {
+    .menu-icon {
+        display: none;
+    }
+}
+
 @media (max-width: 1000px){
 
     .logo {
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .menu-icon {
+        display: none;
     }
 
     contents h2 {
@@ -59,7 +69,7 @@
     }
 }
 
-@media all and (max-width: 670px) {
+@media (max-width: 670px) {
     .logo {
         padding-top: -50px;
     }
