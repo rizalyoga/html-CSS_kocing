@@ -1,0 +1,331 @@
+* {
+    box-sizing: border-box;
+  }
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+ }
+
+ a{
+     text-decoration: none;
+     letter-spacing: 1px;
+ }
+
+ body {
+     font-family: "Lucida Grande";
+ }
+
+ .container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+ }
+
+
+/*-----------------------------------------------|
+|---------------------HEADER---------------------|
+|-----------------------------------------------*/
+header{
+    /* background-color: rgba(29, 205, 236, 0.9); */
+    background-color: rgba(29, 205, 236,1);
+    height: 60px;
+    width: 100%;
+    position: fixed;
+}
+
+ .logo {
+    width: 70px;
+    height:70px;
+    float: left;
+    margin-top: -5px;
+    margin-left: 0px;
+    color: white;
+}
+
+.header-right{
+    float: right;
+}
+
+.header-right a{
+    /* margin-right: 15px; */
+    color: white;
+    display: block;
+    float: left;
+    font-style: none;
+    transition: all 0.5s;
+}
+
+.login {
+    line-height: 60px;
+    padding: 0 20px;
+}
+
+.login:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.top-banner{
+    background-image: url(illustration-cat-crop.png);
+    background-size: cover;
+    text-align: center;
+    padding: 120px 0px 280px 0;
+    color: white;
+}
+
+.top-banner h1{
+    letter-spacing: 8px;
+}
+
+.top-banner p{
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.informasi{
+    text-align: center;
+    background-color: whitesmoke;
+    padding-bottom: 10px;
+}
+
+.informasi h1{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color:grey;
+    font-size: 20px;
+}
+.informasi span{
+    padding-top: 10px;
+    /*padding-bottom: 20px;*/
+    padding-left: 15px;
+    color: grey;
+}
+
+.btn {
+    padding: 24px 24px;
+    display: inline-block;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.daftar {
+    margin-top: 12px;
+    background-color: tomato;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    opacity: 0.9;
+}
+
+.daftar:hover {
+    opacity: 1;
+    color: white;
+}
+
+/*-----------------------------------------------|
+|--------------------CONTENT---------------------|
+|-----------------------------------------------*/
+.contents {
+    background-color: tomato;
+}
+
+.container-content {
+    width: 80%;
+    background-color: white;
+    text-align: center;
+    /* margin-left: 165px; */
+    /* margin-right: 165px; */
+    opacity: 0.9;
+    margin: 0 auto;
+}
+
+.ilustrasi {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.container-content img {
+    width: 130px;
+    height:120px;
+    /* float: center; */
+    padding-top: 25px;
+    /* display: inline-block; */
+    margin: 0 auto;
+
+}
+
+.contents p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.services {
+    background-color: tomato;
+    /* margin-left: 30px; */
+}
+
+.heading{
+    text-align: center;
+}
+.box {
+    position: relative;
+    /* float: left; */
+    height: 300px;
+    /* width: 400px; */
+    background-color: teal;
+    border: 30px white;
+    border-radius: 10px;
+    padding-top: 20px;
+    display: inline-block;
+    width: 25%;
+    margin: 15px;
+}
+
+.icon img{
+    width: 250px;
+    height: 150px;
+    /* display: block; */
+    /* padding-top: 50px; */
+    /* padding-left: -50px; */
+    margin-right: auto;
+    margin-left: auto;
+    /* padding-left: 35px; */
+}
+
+.icon h5 {
+    text-align: center;
+    color: white;
+    font-weight: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.heading h2{
+    color: black;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-family: sans-serif;
+}
+
+.message-wrapper {
+    /* color: yellow; */
+    font-family: sans-serif;
+}
+
+.pesan {
+    padding: 20px;
+}
+
+.langganan {
+    padding: 15px 40px;
+    background-color: teal;
+    cursor: pointer;
+    box-shadow: 0 7px grey;
+    color: white;
+    margin-bottom: 50px;
+  }
+  
+  .langganan:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+
+
+/*-----------------------------------------------|
+|---------------------FOOTER---------------------|
+|-----------------------------------------------*/
+footer{
+    background-color: grey;
+    padding-bottom: 100px;
+    padding-top: 20px;
+}
+
+.logo-footer{
+    width: 200px;
+    height: 90px;
+    margin-left: 0px;
+    float: left;
+    margin-top: 0px;
+    margin-right: 60px;
+}
+
+.layanan{
+    padding-right: 60px;
+}
+
+.layanan-list {
+    float: left;
+}
+
+.layanan h4{
+    padding-bottom: 5px;
+    color: white;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+
+.layanan li{
+    display: block;
+    padding-bottom: 5px;
+    font-family: sans-serif;
+    list-style-position: initial;
+    font-size: 12px;
+}
+
+.layanan a{
+    color: white;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+.sosmed{
+    float: left;
+    padding-left: 60px;
+    margin-top: -22px;
+}
+
+.sosmed h4{
+    padding-bottom: 5px;
+    color: white;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+
+.sosmed li{
+    display: block;
+    font-family: sans-serif;
+    padding-bottom: 5px;
+    list-style-position: initial;
+    font-size: 12px;
+}
+
+.sosmed a{
+    color: white;
+}
+
+.address{
+    float: right;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: white;
+    padding-right: 30px;
+}
+
+.address p{
+    padding-bottom: 3px;
+}
+
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    /* Gantikan property display ke none */
+    display: none;
+}
+

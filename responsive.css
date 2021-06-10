@@ -1,0 +1,134 @@
+@media (max-width: 1000px){
+
+    .logo {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    contents h2 {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 5px;
+    }
+
+    .contents p {
+        padding-right: 10px;
+        padding-left: 20px;
+    }
+
+    .box {
+        width: 50%;
+        display: inline-block;
+        background-color: teal;
+        border: 30px white;
+        border-radius: 10px;
+        padding-top: 20px;
+        /* height: 100px; */
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    .logo-footer{
+        float: none;
+        width: 500px;
+        height: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 20px;
+    }
+
+    .layanan{
+        /* display: block; */
+        padding-right: 60px;
+    }
+
+    .address{
+        /* display: block; */
+        /* float: left; */
+        font-family: sans-serif;
+        font-size: 12px;
+        color: white;
+        padding-right: 30px;
+    }
+    
+    .address p{
+        padding-bottom: 3px;
+    }
+}
+
+@media all and (max-width: 670px) {
+    .logo {
+        padding-top: -50px;
+    }
+
+    .menu-icon{
+        display: block;
+        font-size: 25px;
+        padding-right: 20px;
+        margin-top: -5px;
+    }
+
+    .header-right {
+        display: none;
+    }
+
+    .box{
+        width: 75%;
+    }
+
+    .logo-footer {
+        margin-left: auto;
+        margin-right: auto;
+        height: 200px;
+        width: 200px;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .layanan {
+        display: none;
+        float: none;
+        /* margin-top: -50px; */
+        margin: 0 auto;
+    }
+
+    /* .layanan ul {
+        display: inline-block;
+        float: none;
+    } */
+
+    .sosmed {
+        display: inline;
+        float: none;
+        /* margin-top: -50px; */
+        /* margin-top: 30px; */
+        /* margin: 0 auto; */
+    }
+
+    .sosmed h4 {
+        margin-top: -70px;
+    }
+
+    .sosmed p {
+        margin-bottom: 20px;
+    }
+
+    .address {
+        /* display: block; */
+        float: none;
+        display: inline;
+        /* margin-left: -30px; */
+        /* margin: 0 auto; */
+    }
+
+    .address p {
+        padding-top: 5px;
+        margin-top: 5px;
+    }
+
+}
